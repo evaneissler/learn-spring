@@ -228,7 +228,7 @@ class WizardServiceTest {
         assertThat(a.getOwner().getId()).isEqualTo(3);
         assertThat(w3.getArtifacts()).contains(a);
     }
-    
+
 
     @Test
     void testAssignArtifactErrorWithNonExistentWizardId() {
