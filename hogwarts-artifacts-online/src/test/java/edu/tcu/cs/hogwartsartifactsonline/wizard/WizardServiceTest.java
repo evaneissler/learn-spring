@@ -228,6 +228,7 @@ class WizardServiceTest {
         assertThat(a.getOwner().getId()).isEqualTo(3);
         assertThat(w3.getArtifacts()).contains(a);
     }
+    
 
     @Test
     void testAssignArtifactErrorWithNonExistentWizardId() {
@@ -258,6 +259,7 @@ class WizardServiceTest {
         assertThat(a.getOwner().getId()).isEqualTo(2);
     }
 
+
     @Test
     void testAssignArtifactErrorWithNonExistentArtifactId() {
         // Given
@@ -273,5 +275,6 @@ class WizardServiceTest {
                 .isInstanceOf(ObjectNotFoundException.class)
                 .hasMessage("Could not find artifact with Id 1250808601744904192 :(");
     }
+
 
 }
