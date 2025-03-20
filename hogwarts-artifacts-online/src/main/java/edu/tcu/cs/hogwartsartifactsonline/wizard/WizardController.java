@@ -74,4 +74,5 @@ public class WizardController {
         return new Result(true, StatusCode.SUCCESS, "Artifact Assignment Success");
     }
 
+
 }

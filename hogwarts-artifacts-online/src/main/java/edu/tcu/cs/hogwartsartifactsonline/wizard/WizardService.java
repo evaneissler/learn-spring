@@ -6,6 +6,9 @@ import edu.tcu.cs.hogwartsartifactsonline.system.exception.ObjectNotFoundExcepti
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Artifact;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.ArtifactRepository;
+
 import java.util.List;
 
 @Service
