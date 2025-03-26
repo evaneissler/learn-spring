@@ -44,7 +44,7 @@ class WizardControllerTest {
 
     List<Wizard> wizards;
 
-    @Value("${api.endpoint.base-url}")
+    @Value("/api/v1")
     String baseUrl;
 
 

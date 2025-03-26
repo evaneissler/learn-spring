@@ -80,11 +80,11 @@ public class DBDataInitializer implements CommandLineRunner {
         w3.setName("Neville Longbottom");
         w3.addArtifact(a5);
 
-        wizardRepository.save(w1);
-        wizardRepository.save(w2);
-        wizardRepository.save(w3);
+        this.wizardRepository.save(w1);
+        this.wizardRepository.save(w2);
+        this.wizardRepository.save(w3);
 
-        artifactRepository.save(a6);
+        this.artifactRepository.save(a6);
 
         // Create some users.
         HogwartsUser u1 = new HogwartsUser();

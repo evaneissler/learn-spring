@@ -74,4 +74,5 @@ public class WizardService {
         wizard.addArtifact(artifactToBeAssigned);
     }
 
+
 }
