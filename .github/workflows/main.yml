@@ -24,8 +24,5 @@ jobs:
           cache: maven
 
       - name: Build and test with Maven
-        run: |
-          cd hogwarts-artifacts-online
-          mvn --batch-mode package
-        working-directory: hogwarts-artifacts-online
+        run: mvn --batch-mode -f hogwarts-artifacts-online/pom.xml package
 
